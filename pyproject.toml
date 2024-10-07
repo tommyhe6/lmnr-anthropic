@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "lmnr-anthropic"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+lmnr = "^0.4.15"
+anthropic = "^0.35.0"
+pydantic = "^2.9.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
